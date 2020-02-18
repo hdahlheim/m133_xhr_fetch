@@ -28,12 +28,6 @@ if (!Route\did_match()) {
     Response\html('404 not found', 404);
 }
 
-
-
-
-
-
-
 function getStudents () {
     return json_decode(file_get_contents('../students.json'), true);
 }

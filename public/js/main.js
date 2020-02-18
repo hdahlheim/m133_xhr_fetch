@@ -1,3 +1,25 @@
+// async function loadStudents () {
+//   const div = document.querySelector('[data-js-students]')
+
+//   let json = await fetch('/ajax/json/students')
+//     .then(res => {
+//       if (res.ok) return res.json()
+//       throw res.status
+//     })
+
+//   const ul = document.createElement('ul')
+
+//   json.forEach(student => {
+//     const li = document.createElement('li')
+//     li.innerText = `${student.name} - ${student.email}`
+//     ul.appendChild(li)
+//   })
+
+//   div.innerHTML = ul.outerHTML
+
+// }
+
+
 // function loadStudents () {
 //   const xhr = new XMLHttpRequest()
 
